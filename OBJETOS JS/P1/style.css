@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#resultado {
+    line-height: 1.8;
+}

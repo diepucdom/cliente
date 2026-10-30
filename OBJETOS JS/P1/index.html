@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 - Rectángulos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Práctica 1 - Rectángulos</h1>
+
+    <h2>Crear rectángulos</h2>
+
+    <label>Ancho del rectángulo 1:</label>
+    <input type="number" id="width1" value="5">
+
+    <label>Alto del rectángulo 1:</label>
+    <input type="number" id="height1" value="10">
+
+    <br><br>
+
+    <label>Ancho del rectángulo 2:</label>
+    <input type="number" id="width2" value="8">
+
+    <label>Alto del rectángulo 2:</label>
+    <input type="number" id="height2" value="4">
+
+    <br><br>
+
+    <button id="crear">Crear rectángulos</button>
+
+    <hr>
+
+    <h2>Cambiar dimensiones</h2>
+
+    <label>Rectángulo:</label>
+    <select id="rectanguloCambiar">
+        <option value="1">Rectángulo 1</option>
+        <option value="2">Rectángulo 2</option>
+    </select>
+
+    <br><br>
+
+    <label>Nuevo ancho:</label>
+    <input type="number" id="nuevoWidth">
+
+    <label>Nuevo alto:</label>
+    <input type="number" id="nuevoHeight">
+
+    <button id="cambiar">Cambiar dimensiones</button>
+
+    <hr>
+
+    <h2>Calcular áreas</h2>
+
+    <button id="calcular">Calcular áreas</button>
+
+    <div id="areas">
+        Aquí aparecerán las áreas de los rectángulos.
+    </div>
+
+    <hr>
+
+    <h2>Copiar rectángulo</h2>
+
+    <label>Rectángulo que copiar:</label>
+    <select id="rectanguloCopiar">
+        <option value="1">Rectángulo 1</option>
+        <option value="2">Rectángulo 2</option>
+    </select>
+
+    <button id="copiar">Crear copia</button>
+
+    <hr>
+
+    <h2>Comparar rectángulos</h2>
+
+    <div id="comparacion">
+        Aquí aparecerá la comparación de los rectángulos.
+    </div>
+
+    <button id="comparar">Comparar áreas</button>
+
+</body>
+</html>
