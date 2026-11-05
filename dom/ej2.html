@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <p id="posicion">Posición del ratón: X: 0, Y: 0</p>
+
+    <script>
+        const p = document.getElementById('posicion');
+        window.addEventListener('mousemove', function(e) {
+            p.textContent = "Posición del ratón: X: " + e.clientX +", Y: "+ e.clientY;
+        });
+    </script>
+</body>
+</html>
